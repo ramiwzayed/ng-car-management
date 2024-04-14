@@ -14,10 +14,10 @@ export class CarTypesComponent {
   image!: string
 
 
-  // constructor(name: string , color: string , model: number , image:string){
-  //   this.name = name
-  //   this.color = color
-  //   this.model = model 
-  //   this.image = image
-  // }
+  constructor(name: string , color: string , model: number , image:string){
+    this.name = name
+    this.color = color
+    this.model = model 
+    this.image = image
+  }
 }
