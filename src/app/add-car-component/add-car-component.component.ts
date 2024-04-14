@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './add-car-component.component.css'
 })
 export class AddCarComponentComponent {
-
+type!: string,
+year!: int,
+model!: string,
+color!: string
 }
