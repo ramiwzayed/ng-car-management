@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
   templateUrl: './add-car-component.component.html',
   styleUrl: './add-car-component.component.css'
 })
-export class AddCarComponentComponent {
-type!: string,
-year!: int,
-model!: string,
-color!: string
+export class AddCarComponent {
+  name!: string
+  color!: string
+  model!: number
+  image!: string
 }

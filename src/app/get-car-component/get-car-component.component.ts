@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
   templateUrl: './get-car-component.component.html',
   styleUrl: './get-car-component.component.css'
 })
-export class GetCarComponentComponent {
 
+export class GetCarComponentComponent {
+  name!: string
+  color!: string
+  model!: number
+  image!: string
 }
